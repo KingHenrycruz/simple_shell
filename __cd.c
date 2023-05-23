@@ -1,9 +1,9 @@
 #include "builtins.h"
 
 /**
- * __cd_error - print an error upon failure to change directory
- * @info: shell info
- * @dir: directory
+ * __cd_error - error to be printed upon failure to change directory
+ * @info: information of the shell
+ * @dir: the directory to be entered
  */
 void __cd_error(info_t *info, char *dir)
 {
@@ -18,8 +18,8 @@ void __cd_error(info_t *info, char *dir)
 
 
 /**
- * __cd_success - update the environment upon success
- * @info: shell info
+ * __cd_success - upon success, update the environment
+ * @info: the shell information
  */
 void __cd_success(info_t *info)
 {
@@ -48,10 +48,10 @@ void __cd_success(info_t *info)
 
 
 /**
- * __cd - changes the directory
- * @info: arguments passed
+ * __cd - Here, We CD: changes the directory
+ * @info: Information of the arguments passed/entered
  *
- * Return: int
+ * Return: integer value
  */
 int __cd(info_t *info)
 {
