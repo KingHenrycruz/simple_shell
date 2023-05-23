@@ -18,23 +18,23 @@ extern char **environ;
 
 /**
   * struct info - shell state
-  * @interactive: arguments passed
-  * @argc: arguments count
+  * @interactive: entered arguments
+  * @argc: arguments used
   * @argv: arguments values
-  * @file: passed arguments
-  * @fileno: arguments passed
-  * @status: passed arguments
-  * @cwd: arguments passed
-  * @exe: arguments passed
-  * @env: arguments passed
-  * @history: arguments passed
-  * @commands: arguments passed
-  * @path: arguments passed
-  * @aliases: passed arguments
-  * @line: arguments passed
-  * @lineno: arguments passed
-  * @tokens: passed arguments
-  * @pid: passed arguments
+  * @file: used arguments
+  * @fileno: past arguments
+  * @status: used arguments
+  * @cwd: arguments entered
+  * @exe: entered arguments
+  * @env: arguments used
+  * @history: arguments used
+  * @commands: arguments used
+  * @path: arguments used
+  * @aliases: arguments used
+  * @line: arguments used
+  * @lineno: arguments entered
+  * @tokens: arguments used
+  * @pid: used arguments
   */
 
 struct info
