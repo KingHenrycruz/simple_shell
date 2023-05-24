@@ -39,9 +39,9 @@ info_t *init_info(int argc, char **argv)
 
 
 /**
- * free_info - free and nullify dynamically allocated info
- * @info: pointer to the info
- * Return: current exit status
+ * free_info - erase changing  assigned information
+ * @info: pointed message
+ * Return: standard outlet state
  */
 int free_info(info_t *info)
 {
