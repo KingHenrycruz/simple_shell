@@ -18,6 +18,14 @@ extern char **environ;
 
 /**
   * struct info - shell state
+  * @history: arguments used
+  * @commands: arguments used
+  * @path: arguments used
+  * @aliases: arguments used
+  * @line: arguments used
+  * @lineno: arguments entered
+  * @tokens: arguments used
+  * @pid: used arguments
   * @interactive: entered arguments
   * @argc: arguments used
   * @argv: arguments values
@@ -27,14 +35,6 @@ extern char **environ;
   * @cwd: arguments entered
   * @exe: entered arguments
   * @env: arguments used
-  * @history: arguments used
-  * @commands: arguments used
-  * @path: arguments used
-  * @aliases: arguments used
-  * @line: arguments used
-  * @lineno: arguments entered
-  * @tokens: arguments used
-  * @pid: used arguments
   */
 
 struct info
