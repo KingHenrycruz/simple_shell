@@ -7,7 +7,15 @@
 #include "types.h"
 
 /**
-  * struct dict - singly linked list for key values
+  * @typedef struct dict - singly linked list for key values
+  * @history: arguments used 
+  * @commands: arguments used 
+  * @path: arguments used 
+  * @aliases: arguments used 
+  * @line: arguments used 
+  * @lineno: arguments entered 
+  * @tokens: arguments used 
+  * @pid: used arguments
   * @key: the var name
   * @next: point to next node
   * @val: var value
