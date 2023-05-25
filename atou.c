@@ -3,7 +3,7 @@
 /**
  * atou - Converting string to integer.
  * @s: The character to be converted.
- * Returns: An integer value.
+ * Return: An integer value.
  */
 
 unsigned int atou(char *s)
