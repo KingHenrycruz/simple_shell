@@ -61,8 +61,8 @@ char *_strndup(const char *str, size_t n)
 
 /**
  * _strnlen - compute the string length
- * @stng: a measured string
- * @n:maximum checked characters 
+ * @str: a measured string
+ * @n:maximum checked characters
  * Return: the lesser of n and the length of the string
  */
 ssize_t _strnlen(const char *str, size_t n)
@@ -113,7 +113,7 @@ int _strncmp(const char *s1, const char *s2, size_t n)
  * _strncpy - coppied string
  * @dest: destination
  * @src: source file
- * @n:the maximum coppied bytes 
+ * @n:the maximum coppied bytes
  *
  * Description: function capable to copy n bytes from src to dest. A
  * void byte will NOT be written if not found in the first n bytes
