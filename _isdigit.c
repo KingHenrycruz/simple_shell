@@ -2,8 +2,8 @@
 
 /**
   * _isdigit - Determines if the character is digit
-  * @c: The character to be checked. 
-  * Return: 1 if the character is a digit, 0 otherwise. 
+  * @c: The character to be checked.
+  * Return: 1 if the character is a digit, 0 otherwise.
   */
 bool _isdigit(int c)
 {

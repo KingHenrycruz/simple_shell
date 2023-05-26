@@ -1,9 +1,9 @@
 #include "command.h"
 
 /**
- * split_cmd -  split a command by replacing unquoted semicolons with NULL bytess
+ * split_cmd -  split a command by replacing...
  * @cmd: Command to be splitted
- * Return: total number of commands that result from splitting the given command by replacing unquoted semicolons with NULL bytes.
+ * Return: total number of commands..
  */
 size_t split_cmd(char *cmd)
 {

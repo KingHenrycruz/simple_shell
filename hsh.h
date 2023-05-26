@@ -31,10 +31,10 @@ extern char **environ;
 bool read_input(info_t *info);
 quote_state_t _read_input(char **lineptr, int fd);
 
+int execute(info_t *info);
 int _execute(info_t *info);
 int parse(info_t *info);
 
-int execute(info_t *info);
 
 void expand_vars(info_t *info, char ***tokptr);
 char **_expand_vars(info_t *info, char ***tokptr);

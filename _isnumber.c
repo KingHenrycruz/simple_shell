@@ -3,7 +3,7 @@
 /**
   * _isnumber - Determines if a string contains only digits
   * @s: string as a pointer
-  * Return: 1 if the character is a digit, 0 otherwise. 
+  * Return: 1 if the character is a digit, 0 otherwise.
   */
 bool _isnumber(const char *s)
 {

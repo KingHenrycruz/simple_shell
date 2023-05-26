@@ -1,7 +1,7 @@
 #include "ctype.h"
 
 /**
- * _isalnum: alphanumeric char checker
+ * _isalnum - alphanumeric char checker
  * @c: The character to be checked.
  * Return: 1 if the character is alphanumeric, 0 if otherwise.
  */
