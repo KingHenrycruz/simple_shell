@@ -26,6 +26,8 @@
 #define CMD_OR       1
 #define CMD_AND      2
 #define CMD_CHAIN    3
+#define HIST_MAX 100
+#define HIST_FILE "history.txt"
 
 extern char **environ;
 
